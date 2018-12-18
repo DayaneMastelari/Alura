@@ -1,0 +1,1 @@
+<?phpfunction fizzbuzz($numero){    if ($numero % 15 == 0) {        echo "FizzBuzz <br>";    } else if ($numero % 5 == 0) {    	echo "Buzz <br>";    } else if ($numero % 3 == 0) {		echo "Fizz <br>";    } else{		echo $numero . "<br>";	}       }for ($i = 1; $i <= 100; $i++) {    fizzbuzz($i);}

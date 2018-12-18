@@ -1,0 +1,1 @@
+<?phpfor ($i = 1; $i <= 100; $i++){		$output = '';	if ($i % 3 == 0 && $i % 5 == 0)	{		$output .= "FizzBuzz <br>";	}		if ($i % 3 == 0)	{		$output .= "Fizz <br>";	}	if ($i % 5 == 0)	{		$output .= "Buzz <br>";	}	if (!$output)	{		$output = $i . "<br>";	}	echo $output;}?>

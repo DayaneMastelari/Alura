@@ -1,0 +1,1 @@
+<?phpforeach (range(1, 100) as $number){	if($number % 3 == 0 && $number % 5 == 0){		echo "fizzbuzz <br>";	}else if($number % 3 == 0){		echo "fizz <br>";	}else if($number % 5 == 0){		echo "buzz <br>";	}else {		echo $number . "<br>";	}}?>
